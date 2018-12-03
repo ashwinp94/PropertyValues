@@ -27,5 +27,12 @@ const beatles = {
         }
     ]
 }
+let Paul  = beatles.members[1].name;
+let Start = beatles.history.formed;
+let End = beatles.history.disbanded;
+let Born = beatles.members[1].birth;
+let Album = beatles.albums[3];
 
-console.log (beatles.members[1].name, "was in the Beatles from", beatles.history.formed, "to", beatles.history.disbanded+ ".", "He was born in", beatles.members[1].birth+".", "He contributed heavily to the", beatles.albums[3], "album"+".")
+console.log(`${Paul} was in the beatles from ${Start} to ${End}. He was born in ${Born}. He contributed heavily to the ${Album} Album.`)
+// // Previously was //
+// .console.log(beatles.members[1].name, "was in the Beatles from", beatles.history.formed, "to", beatles.history.disbanded+ ".", "He was born in", beatles.members[1].birth+".", "He contributed heavily to the", beatles.albums[3], "album"+".")
